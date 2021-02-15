@@ -1,0 +1,58 @@
+
+{ 
+    "top5feb13": [
+    {
+        "id": 0,
+        "name": "Nikola Jokic",
+        "fp": 56.5,
+        "pts": 26.7,
+        "reb": 11.3,
+        "ast": 8.6,
+        "img_uri": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Luka Doncic",
+        "fp": 54.1,
+        "pts": 28.5,
+        "reb": 8.7,
+        "ast": 9.4,
+        "img_uri": "https://media.bleacherreport.com/f_auto,w_800,h_533,q_auto,c_fill/br-img-images/003/903/134/hi-res-4a9a76d644e4b7e6d1ce0f6d6d816b74_crop_north.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Giannis Antetokounmpo",
+        "fp": 53.2,
+        "pts": 28.1,
+        "reb": 11.2,
+        "ast": 5.6,
+        "img_uri": "https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_2133,w_3200/https%3A%2F%2Fbehindthebuckpass.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1197034110.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Joel Embiid",
+        "fp": 51.1,
+        "pts": 29.4,
+        "reb": 10.9,
+        "ast": 2.9,
+        "img_uri": "https://www.inquirer.com/resizer/LoeL813OEoBSaFMPOP11jgBV51I=/0x0:2400x1597/1400x932/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/NY4AUWZZ55FMJO4ILSAHGVXDDE.jpg"
+    },
+    {
+        "id": 4,
+        "name": "James Harden",
+        "fp": 49.7,
+        "pts": 23.9,
+        "reb": 7.0,
+        "ast": 11.0,
+        "img_uri": "https://www.gannett-cdn.com/presto/2021/01/17/USAT/08971a20-62b6-480e-9e4c-21cc16faa63d-2021-01-16_James_Harden1.jpg?crop=1184,755,x57,y284&width=660&height=421&format=pjpg&auto=webp"
+    },
+    {
+        "id": 5,
+        "name": "Lonzo Ball",
+        "fp": 29.9,
+        "pts": 13.8,
+        "reb": 4.5,
+        "ast": 4.8,
+        "img_uri": "https://img.bleacherreport.net/img/images/photos/003/832/559/hi-res-06723d13e93ab518c7479f72a5a73b16_crop_north.jpg?1570806645&w=3072&h=2048"
+    }]
+}
