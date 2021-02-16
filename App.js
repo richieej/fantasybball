@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Image, StyleSheet, Text, View, SafeAreaView, ScrollView } from 'react-native';
 import top5feb13 from './Top5Fantasy.json'
+import PlayerCard from './playerCard'
 import { FlatList } from 'react-native';
 
 
@@ -27,27 +28,15 @@ export default function App() {
         renderItem={
           (obj) => {
             return (
-              <View style={styles.playercard}>
-                <View style={styles.cardpfp}>
-                  <Image 
-                    style={styles.icon}
-                    source={{
-                      uri: obj.item.img_uri
-                    }}
-                  />
-                </View>
-                <View style={styles.cardstats}>
-                  <Text style={styles.header}>{obj.item.name}</Text>
-                  <View>
-                    <Text>Fantasy Points: {obj.item.fp}</Text>
-                    <Text>Points: {obj.item.pts}</Text>
-                    <Text>Rebounds: {obj.item.reb}</Text>
-                    <Text>Assists: {obj.item.ast}</Text>
-                  </View>
-                </View>
-              </View>
-            )
-          }
+              <PlayerCard
+                img_uri={obj.item.img_uri}
+                name={obj.item.name}
+                fp={obj.item.fp}
+                pts={obj.item.pts}
+                reb={obj.item.reb}
+                ast={obj.item.ast}
+              />
+            )}
         }
         keyExtractor={(item) => {
           return (
@@ -117,3 +106,23 @@ const styles = StyleSheet.create({
     fontSize: 25
   }
 });
+
+/*<View style={styles.playercard}>
+                <View style={styles.cardpfp}>
+                  <Image 
+                    style={styles.icon}
+                    source={{
+                      uri: obj.item.img_uri
+                    }}
+                  />
+                </View>
+                <View style={styles.cardstats}>
+                  <Text style={styles.header}>{obj.item.name}</Text>
+                  <View>
+                    <Text>Fantasy Points: {obj.item.fp}</Text>
+                    <Text>Points: {obj.item.pts}</Text>
+                    <Text>Rebounds: {obj.item.reb}</Text>
+                    <Text>Assists: {obj.item.ast}</Text>
+                  </View>
+                </View>
+              </View>*/
